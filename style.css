@@ -21,6 +21,11 @@ body {
   letter-spacing: 4px;
 }
 
+.content h1 {
+  color: black;
+  font-size: 50px;
+}
+
 #banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
@@ -29,8 +34,25 @@ body {
   width: 100%;
 }
 
+#about {
+  background-image: url("https://www.mohonk.com/wp-content/uploads/2017/09/HouseWinterFromLake_Adjust-1680x1260.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+#about .content h1 {
+  border: solid 3px black;
+  text-decoration: none;
+  position: relative;
+  top: 230px;
+  width: 400px;
+  margin: 0 auto;
+}
+
 #banner .content h1 {
-  border: solid 3px white;
+  border: solid 3px black;
   position: relative;
   top: 50px;
   width: 400px;
@@ -48,14 +70,14 @@ h1 {
   font-size: 42px;
   font-weight: 600;
   text-align: center;
+  text-decoration: none;
 }
 
 h2 {
-  color: red;
+  color: coral;
   font-size: 14px;
   line-height: 48px;
   text-align: center;
-  border: 1px dotted red;
 }
 
 h3 {
@@ -103,4 +125,8 @@ p {
   background: white;
   border: 1px solid red;
   color: red;
+}
+
+a.active {
+  text-decoration: none;
 }
